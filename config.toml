@@ -1,0 +1,93 @@
+baseURL = ""
+languageCode = "en-us"
+DefaultContentLanguage = "en"
+title = "Netspective Media"
+theme = "meghna-hugo"
+summaryLength = 10
+
+[taxonomies]
+  author = "author"
+  category = "categories"
+  tag = "tags"
+
+# Menu
+[menu]
+    [[menu.nav]]
+    name = "Publications"
+    URL = "publications"
+    weight = 2
+
+    [[menu.nav]]
+    name = "Solutions"
+    URL = "solutions"
+    weight = 3
+
+    [[menu.nav]]
+    name = "Downloads"
+    URL = "downloads"
+    weight = 4
+
+    [[menu.nav]]
+    name = "Partners"
+    URL = "partners"
+    weight = 5
+    
+
+    [[menu.nav]]
+    name = "Contact"
+    URL = "contact-us"
+    weight = 6
+
+
+    [[menu.nav]]
+    name = "Awards"
+    URL = "awards"
+    weight = 7
+
+
+   
+
+# Site params
+[params]
+home= "Home"
+logo = "images/Netspective-Media-logo.png"
+gmapAPI = ""
+# Meta data
+description = "Practitioner &amp; Expert Journalism"
+author = "Themefisher"
+# Google Analitycs
+googleAnalitycsID = "Your ID"
+custom_css = ["css/custom.css"]
+
+    # Banner Section
+    [params.banner]
+    enable = true
+    bgImage = "images/slider/banner-slider-1.jpg"
+    icon = "tf-ion-play"
+    heading = "PRACTITIONER & EXPERT JOURNALISM"
+    contentSubhead = "Go beyond news & views."
+    contentDescription ="Netspective Media publishes opinionated insider-driven content for builders of complex & safety-critical regulated products."
+    contentsubarea="We explain the value of IT & how to de-risk innovation."
+    contentfinalarea="Health IT | Government Tech | Med Tech | Life Sciences."
+    
+
+   
+    # footer
+    [params.footer]
+        copyright = "Netspective Media LCC"
+        copyrightURL = "https://www.netspective.media"
+
+        # social Icons
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-facebook"
+        url = "https://www.facebook.com/NetspectiveMedia"
+
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-twitter"
+        url = "https://twitter.com/NetspectivMedia?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-linkedin"
+        url = "https://www.linkedin.com/company/netspective-media"
+
+       

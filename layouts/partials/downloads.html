@@ -1,0 +1,37 @@
+{{ if .Site.Data.downloads.enable}}
+{{"<!-- Start About Section -->" | safeHTML}}
+<section class="parallax-section bg-1 section overly" style='background-image: url("{{ .Site.Data.downloads.bgimage | absURL }}")'>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                {{"<!-- section title -->" | safeHTML}}
+                <div class="title text-center wow fadeIn" data-wow-duration="1500ms">
+                    <h2 class="color-txt jump" id="downloads">{{ .Site.Data.downloads.heading}} <!--<span class="color">{{ .Site.Data.publication.headingSpan}}</span>--> </h2>
+                    <div class="border-meghna border-white"></div>
+                </div>
+            </div>
+            </div>
+            <div class="row">
+            
+              <div class="col-lg-6">
+                <img src="{{ .Site.Data.downloads.leftimage | absURL }}" class="img-fluid">
+              </div>
+              <div class="col-lg-6 downloads">
+                  <h2>{{ .Site.Data.downloads.title}}</h2> 
+                 <p>{{ .Site.Data.downloads.content}}</p>
+                 <div class="row">
+                 <div class="col-lg-4">
+                  <a href="{{ .Site.Data.downloads.googleplayurl}}" target="_blank"><img src="{{ .Site.Data.downloads.googlepayimage}}" class="app-bt"/></a>
+                 </div>
+                 <div class="col-lg-4">
+                  <a href="{{ .Site.Data.downloads.appstoreurl}}" target="_blank"><img src="{{ .Site.Data.downloads.appstoreimage}}" class="app-bt"/></a>
+                 </div>
+                </div>
+              </div>
+           
+        </div>
+    </div>
+</section>
+{{"<!-- /about -->" | safeHTML}}
+{{ end }}
+

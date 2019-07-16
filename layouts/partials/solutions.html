@@ -1,0 +1,36 @@
+{{ if .Site.Data.solutions.enable}}
+{{"<!-- Start About Section -->" | safeHTML}}
+<section class="sol-colr about section" >
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                {{"<!-- section title -->" | safeHTML}}
+                <div class="title text-center wow fadeIn" data-wow-duration="1500ms">
+                    <h2 id="solutions" class="jump">{{ .Site.Data.solutions.heading}} <!--<span class="color">{{ .Site.Data.publication.headingSpan}}</span>--> </h2>
+                    <div class="border-meghna"></div>
+                </div>
+            </div>
+            {{"<!-- /section title -->" | safeHTML}}
+
+            {{ range .Site.Data.solutions.solutionitem }}
+            {{"<!-- About item -->" | safeHTML}}
+            <div class="col-lg-12 text-center wow fadeInUp soln-content" data-wow-duration="500ms">
+                
+                        {{with .icon}}<img src="{{ . }}" class="img-responsive"></img>{{ end }}
+                    
+                    {{"<!-- Express About Yourself -->" | safeHTML}}
+                    <div class="content text-center">
+                        {{ with .title }}<h3 class="ddd">{{ . }}</h3>{{ end }}
+                        {{ with .content}}  <p>{{ . }}</p>{{ end }}
+                    </div>
+                </div>
+    
+            {{ end }}
+            
+           
+        </div>
+    </div>
+</section>
+{{"<!-- /about -->" | safeHTML}}
+{{ end }}
+

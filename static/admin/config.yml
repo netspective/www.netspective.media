@@ -1,0 +1,109 @@
+backend:
+  name: git-gateway
+
+media_folder: "static/images" # Folder where user uploaded files should go
+public_folder: "images"
+
+collections: # A list of collections the CMS should be able to edit
+  - name: "sections"
+    label: "Sections"
+    files:
+      - file: "data/publications.yml"
+        label: "Publications"
+        name:  "Publications"
+        fields:
+            - {label: enable, name: enable, widget: string}
+            - {label: heading, name: heading, widget: markdown}
+            - label: "publicationItem"
+              name: "publicationItem"
+              widget: "list"
+              fields:
+                - {label: "icon", name: "icon", widget: "image"}
+                - {label: "title", name: "title", widget: "string"}
+                - {label: "content", name: "content", widget: "string"}
+                - {label: "btnText", name: "btnText", widget: "string"}
+                - {label: "btnURL", name: "btnURL", widget: "string"}
+                - {label: "submitbtnText", name: "submitbtnText", widget: "string"}
+                - {label: "submitbtnURL", name: "submitbtnURL", widget: "string"}
+      - file: "data/publications2.yml"
+        label: "Publications2"
+        name:  "Publications2"
+        fields:
+            - {label: enable, name: enable, widget: string}
+            - label: "publicationItem"
+              name: "publicationItem"
+              widget: "list"
+              fields:
+                - {label: "icon", name: "icon", widget: "image"}
+                - {label: "title", name: "title", widget: "string"}
+                - {label: "content", name: "content", widget: "string"}
+                - {label: "btnText", name: "btnText", widget: "string"}
+                - {label: "btnURL", name: "btnURL", widget: "string"}
+                - {label: "submitbtnText", name: "submitbtnText", widget: "string"}
+                - {label: "submitbtnURL", name: "submitbtnURL", widget: "string"}
+      - file: "data/solutions.yml"
+        label: "Solutions"
+        name:  "Solutions"
+        fields:
+            - {label: enable, name: enable, widget: "string"}
+            - {label: heading, name: heading, widget: "string"}
+            - label: "solutionitem"
+              name: "solutionitem"
+              widget: "list"
+              fields:
+                - {label: "icon", name: "icon", widget: "image"}
+                - {label: "title", name: "title", widget: "string"}
+                - {label: "content", name: "content", widget: "string"}
+      - file: "data/downloads.yml"
+        label: "Downloads"
+        name:  "Downloads"
+        fields:
+            - {label: enable, name: enable, widget: "string"}
+            - {label: heading, name: heading, widget: "string"}
+            - {label: title, name: title, widget: "string"}
+            - {label: content, name: content, widget: "string"}
+            - {label: bgimage, name: bgimage, widget: "image"}
+            - {label: leftimage, name: leftimage, widget: "image"}
+            - {label: googlepayimage, name: googlepayimage, widget: "image"}
+            - {label: googleplayurl, name: googleplayurl, widget: "string"}
+            - {label: appstoreimage, name: appstoreimage, widget: "image"}
+            - {label: appstoreurl, name: appstoreurl, widget: "string"}
+      - file: "data/partners.yml"
+        label: "Partners"
+        name:  "Partners"
+        fields:
+            - {label: enable, name: enable, widget: "string"}
+            - {label: heading, name: heading, widget: "string"}
+            - label: "Partnerimagelist"
+              name: "Partnerimagelist"
+              widget: "list"
+              fields:
+                - {label: "image", name: "image", widget: "image"}
+      - file: "data/contact.yml"
+        label: "Contact US"
+        name:  "Contact US"
+        fields:
+            - {label: enable, name: enable, widget: "string"}
+            - {label: heading, name: heading, widget: "string"}
+            - {label: headingSpan, name: headingSpan, widget: "string"}
+            - {label: title, name: title, widget: "string"}
+            - {label: content, name: content, widget: "string"}
+            - label: "contactDetails"
+              name: "contactDetails"
+              widget: "list"
+              fields:
+                - {label: "icon", name: "icon", widget: "string"}
+                - {label: "info", name: "info", widget: "string"}
+      - file: "data/awards.yml"
+        label: "Awards"
+        name:  "Awards"
+        fields:
+            - {label: enable, name: enable, widget: "string"}
+            - {label: heading, name: heading, widget: "string"}
+            - label: "awardlist"
+              name: "awardlist"
+              widget: "list"
+              fields:
+                - {label: "image", name: "image", widget: "image"}         
+            
+               

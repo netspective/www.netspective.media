@@ -1,0 +1,284 @@
+body {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    color: #000000;
+}
+.navigation .navigation-menu li a {
+    font-size: 16px;
+    color: #000000;
+}
+.navigation .navigation-menu li a:hover, .navigation .navigation-menu li a:focus {
+    background: transparent;
+    color: #e54e19;
+}
+.heroarea-subhead{
+ color: #fff;
+    font-size: 20px;
+    width: 41% !important;
+    margin: 0 auto;
+}
+.comonbtn{
+background: #57cbcc;
+    color: #fff;
+    display: inline-block;
+    font-size: 11px !important;
+    letter-spacing: 1px;
+    padding: 10px 35px;
+    text-transform: capitalize;
+    width: 100%;
+}
+.downloads p  {
+ color: #fff;
+}
+.downloads h2{
+ color: #fff;
+ margin-top: 125px;
+    font-weight: 700;
+}
+.sol-colr{
+    background-color: #fff;
+}
+.soln-content h3, .soln-content p{
+  color:#333;
+}
+.contact-us {
+    padding-top: 100px !important;
+}
+.navigation{
+    background-color: #fcfdff !important;
+}
+.hero-area {
+    background-size: cover;
+    height: 470px !important;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-area .block h1{
+    font-size: 60px !important;
+}
+.title h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 35px;
+    color: #e54e19;
+    background-color: inherit!important;
+    padding: 0 10px;
+}
+.navigation .navigation-menu li a.active {
+    color: #1ba1e2 !important;
+}
+.border-meghna:before{
+    background-color: #e54e19;
+    height: 3px;
+}
+.border-white:before {
+    background-color: #fff
+}
+.color-txt{
+   color:#fff!important;  
+}
+.border-black:before {
+    background-color: #000;
+}
+.color-txt-black{
+   color:#000!important;  
+}
+.color-txt-orange {
+    color: #e54e19;
+}
+.title h2 span {
+    color: #e54e19!important;
+}
+.comonbtn {
+  background: #399cee !important;
+}
+.title h2 span {
+    color: #fbede9;
+}
+.public-section {
+    background-color: #e7eaec;
+}
+.partner-section {
+    background-color: #fff;
+}
+.awards {
+    margin-bottom: 30px;
+}
+.contact-info p {
+    color: #000;
+}
+.contact-info h3, .con-info {
+    color: #000;
+}
+.social-icon ul li a {
+    background-color: #f5f5f5;
+}
+.copyright a:focus, .copyright a:hover {
+    color: #fff;
+}
+.social-icon ul li:hover a {
+        background-color: #e54e19;
+}
+input#contactsubmit,#contact-submit:hover  {
+    background-color: #399cee;
+    color: #fff;
+    width: 100%;
+}
+.form-meghna input:hover, .form-meghna textarea:hover{
+    border-color: #e54e19;
+}
+.social-icon ul li a i { 
+    font-size: 20px;
+    line-height: 39px;   
+}
+.social-icon ul li a {
+    height: 39px;
+    width: 37px;
+}
+.social-icon {
+    padding: 15px 0 0px;
+}
+.copyright {
+    padding: 0px 0;
+    color: #fff;
+}
+.form-meghna .form-control{
+    color: #111;
+    background-color: #f3f3f3;
+}
+.about .block {
+    background: #fff;
+}
+.hero-area:before {
+    background: rgba(0,0,0,0)!important;
+}
+.publish-title {
+    min-height: 55px;
+    line-height: 26px;
+    margin-top: 5px!important;
+    color: #000;
+}
+.publish-content {
+   min-height: 132px;
+}
+ .comonbtn {
+    background: #399cee !important;
+    font-size: 14px !important;
+    letter-spacing: 0.5px!important;
+    font-weight: 600!important;
+    padding: 7px 3px!important;
+}
+.about .block:hover {
+    border-bottom: 2px solid #e54e19;
+}
+.bg-footer {
+    background-color: #e54e19;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+.contact-us {
+    /*background: #e7eaec;*/
+    background: rgba(245,245,245,1);
+background: -moz-linear-gradient(top, rgba(245,245,245,1) 0%, rgba(255,255,255,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(245,245,245,1)), color-stop(100%, rgba(255,255,255,1)));
+background: -webkit-linear-gradient(top, rgba(245,245,245,1) 0%, rgba(255,255,255,1) 100%);
+background: -o-linear-gradient(top, rgba(245,245,245,1) 0%, rgba(255,255,255,1) 100%);
+background: -ms-linear-gradient(top, rgba(245,245,245,1) 0%, rgba(255,255,255,1) 100%);
+background: linear-gradient(to bottom, rgba(245,245,245,1) 0%, rgba(255,255,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', endColorstr='#ffffff', GradientType=0 );
+}
+.form-meghna .form-control {
+    border: 1px solid rgb(216, 216, 216)!important;
+}
+.social-icon ul li a {
+    background-color: #e54e19;
+    color:#fff;
+    height: 33px;
+    width: 33px;
+    border-radius: 2px;
+    border: 1px solid #fff;
+}
+.social-icon ul li:hover a {
+    background-color: #bd3e11;
+}
+.social-icon ul li a i {
+    color: #fff;
+    opacity: 5;
+    font-size: 23px;
+    line-height: 32px
+}
+.contact-bg-row {
+    background:#e7eaec!important;
+}
+.bgd-black {
+    background:#000;
+}
+.form-group input::placeholder {
+    color:#555!important;
+}
+.form-group textarea::placeholder {
+    color:#555!important;
+}
+.navigation .navbar-toggler {
+    background: #000;
+}
+.navigation .navigation-menu li a.active {
+    color: #e54e19 !important;
+}
+.app-bt {
+    width:160px;
+    margin-bottom: 10px;
+}
+.jump:before {
+    content: "";
+    display: block;
+    padding-top: 120px;
+    margin-top: -120px;
+}
+/* Media query Starts here */
+
+@media (max-width:991px) {
+.navigation {
+    background-color: #f0f2f5 !important;
+}    
+.hero-area {
+    height: inherit !important;
+    padding: 25px 0px!important;
+}
+.hero-area .block {
+    margin:0 12px!important;
+}
+.hero-area .block h1 {
+    font-size: 20px !important;
+    line-height: 21px!important;
+}
+.heroarea-subhead, .hero-area .block p {
+    font-size: 17px!important;
+    line-height: 18px!important;
+    width: 100% !important;
+}
+.publish-title, .publish-content {
+    min-height: inherit!important;
+}
+.title {
+    padding-bottom: 20px!important;
+}
+.team-member {
+    background-color: inherit!important;
+    text-align: center!important;
+}
+.section {
+    padding: 30px 0!important;
+}
+.parallax-section, .bgd-black {
+    text-align: center!important;
+}
+.downloads h2 {
+    margin-top: 30px!important;
+}
+
+}
+
+
+/* Media query END */

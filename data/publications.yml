@@ -1,0 +1,39 @@
+enable: true
+heading: Publications
+publicationItem:
+  - btnText: Read the Blog
+    btnURL: 'https://www.healthcareguy.com/'
+    content: >-
+      Shahid’s digital health, med tech, bio IT, pharma tech, EHR/EMR/PHR &
+      health data innovators advisory blog.
+    icon: /images/the-health-care-it-guy-logo.png
+    submitbtnText: Submit Guest Article
+    submitbtnURL: 'https://www.healthcareguy.com/request-guest-article/'
+    title: The Healthcare IT Guy
+  - btnText: Read the Blog
+    btnURL: 'https://www.healthcareguys.com/'
+    content: >-
+      Contributed articles to help the health IT, med devices & life sciences IT
+      community get their jobs done.
+    icon: /images/healthcareGuys-Icon.png
+    submitbtnText: Become A contributor
+    submitbtnURL: 'https://www.healthcareguys.com/write-for-us/'
+    title: Healthcare Guys
+  - btnText: Read / Upvote / Comment
+    btnURL: 'https://news.healthcareguys.com/#submit'
+    content: >-
+      It’s like Hacker News for Digital Health. Sharing, upvote, and comment on
+      trending health IT news.
+    icon: /images/HITSphere.png
+    submitbtnText: Share a link / story
+    submitbtnURL: 'https://news.healthcareguys.com/#submit'
+    title: Healthcare Guys News
+  - btnText: Read / Upvote / Comment
+    btnURL: 'http://govtech.netspective.media/'
+    content: >-
+      It’s like Hacker News for Digital Government. Sharing, upvote, and
+      commenting on gov tech news.
+    icon: /images/Federal-logo.png
+    submitbtnText: Share a link / story
+    submitbtnURL: 'http://govtech.netspective.media/#submit'
+    title: dGov News

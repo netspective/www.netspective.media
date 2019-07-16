@@ -1,0 +1,63 @@
+{{ if .Site.Data.publications.enable}}
+{{"<!-- Start About Section -->" | safeHTML}}
+<section class="bg-one about section public-section" >
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                {{"<!-- section title -->" | safeHTML}}
+                <div class="title text-center wow fadeIn" data-wow-duration="1500ms">
+                    <h2 id="publications" class="jump">{{ .Site.Data.publications.heading}} <!--<span class="color">{{ .Site.Data.publication.headingSpan}}</span>--> </h2>
+                    <div class="border-meghna"></div>
+                </div>
+            </div>
+            {{"<!-- /section title -->" | safeHTML}}
+
+            {{ range .Site.Data.publications.publicationItem }}
+            {{"<!-- About item -->" | safeHTML}}
+            <div class="col-lg-3 text-center wow fadeInUp" data-wow-duration="500ms">
+                <div class="block publish-blck">
+                    
+                        {{with .icon}}<img src="{{ . }}" class="img-responsive pub-logo" alt=""></img>{{ end }}
+                    
+                    {{"<!-- Express About Yourself -->" | safeHTML}}
+                    <div class="content text-center">
+                        {{ with .title }}<h3 class="publish-title">{{ . }}</h3>{{ end }}
+                        {{ with .content}}  <p class="publish-content">{{ . }}</p>{{ end }}
+                        {{ with .btnURL}}  
+                         <a data-scroll href="{{ .}}" target="_blank" class="btn btn-main comonbtn">{{ end }}{{ with .btnText}}{{ .}}</a>
+                        {{ end }}
+                        {{ with .submitbtnURL}}  
+                         <a data-scroll href="{{ .}}" target="_blank" style="margin-top:10px;" class="btn btn-main comonbtn">{{ end }}{{ with .submitbtnText}}{{ .}}</a>
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+            <div class="col-lg-2"></div>
+            {{ range .Site.Data.publications2.publicationItem }}
+                            <div class="col-lg-12 text-center wow fadeInUp" data-wow-duration="500ms">
+                <div class="block">
+                    
+                        {{with .icon}}<img src="{{ . }}" class="img-responsive"></img>{{ end }}
+                    
+                    {{"<!-- Express About Yourself -->" | safeHTML}}
+                    <div class="content text-center">
+                        {{ with .title }}<h3 class="publish-title">{{ . }}</h3>{{ end }}
+                        {{ with .content}}  <p>{{ . }}</p>{{ end }}
+                        {{ with .btnURL}}  
+                         <a data-scroll href="{{ .}}" target="_blank" class="btn btn-main comonbtn">{{ end }}{{ with .btnText}}{{ .}}</a>
+                        {{ end }}
+                        {{ with .submitbtnURL}}  
+                         <a data-scroll href="{{ .}}" target="_blank" style="margin-top:10px;" class="btn btn-main comonbtn">{{ end }}{{ with .submitbtnText}}{{ .}}</a>
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+                        {{ end }}
+           <div class="col-lg-2"></div>
+        </div>
+    </div>
+</section>
+{{"<!-- /about -->" | safeHTML}}
+{{ end }}
+

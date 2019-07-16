@@ -1,0 +1,13 @@
+enable: true
+publicationItem:
+  - btnText: View Recent Postings
+    btnURL: 'https://www.hitsphere.com/'
+    content: >-
+      An aggregator of premium blogs that write content about the
+      healthcare,medical, clinical informatics and information technology (IT)
+      industry. Combined, these sites reach a large readership of influential
+      healthcare technology professionals.
+    icon: /images/HITSphere.png
+    submitbtnText: Read all Blogs
+    submitbtnURL: 'https://www.hitsphere.com/'
+    title: HITSphere

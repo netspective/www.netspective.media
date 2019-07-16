@@ -1,0 +1,14 @@
+enable: true
+heading: Contact
+headingSpan: US
+title: Contact Details
+content: >-
+  Please include your preferred method of contact, the best time to reach you,
+  and a brief message. We will respond to you right away. Thank you.
+contactDetails:
+  - icon: tf-map-pin
+    info: 'Netspective Media, LLC, 1802 Brightseat Rd. Suite 101, Landover, MD 20785'
+  - icon: tf-ion-ios-telephone-outline
+    info: 'Phone: (301) 887-3334'
+  - icon: tf-ion-ios-email-outline
+    info: 'Email: editor@netspective.media'
