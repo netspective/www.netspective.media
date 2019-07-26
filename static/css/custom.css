@@ -54,8 +54,10 @@ background: #57cbcc;
     justify-content: center;
     align-items: center;
 }
-.hero-area .block h1{
-    font-size: 60px !important;
+.hero-area .block h1 {
+    font-size: 40px !important;
+    line-height: 42px;
+    margin-bottom: 0px;
 }
 .title h2 {
     text-transform: uppercase;
