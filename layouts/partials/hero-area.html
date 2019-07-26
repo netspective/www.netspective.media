@@ -3,7 +3,7 @@
 <section class="hero-area" id="home" style='background-image: url("{{ .Site.Params.banner.bgImage | absURL }}");'>
     <div class="block">
        
-       {{with .Site.Params.banner.heading}} <h1>{{ . }}</h1>{{ end }}{{with .Site.Params.banner.content}} <p>{{ . }}</p> {{ end }}<br>
+       {{with .Site.Params.banner.heading}} <h1>{{ . }}</h1>{{ end }}{{with .Site.Params.banner.content}} <p>{{ . }}</p> {{ end }}<br> {{with .Site.Params.banner.subheading}} <h2 class="subhead">{{ . }}</h2>{{ end }}<br> 
        {{with .Site.Params.banner.contentSubhead}} <p class="heroarea-subhead" >{{ . }}</p> {{ end }}
        {{with .Site.Params.banner.contentDescription}} <p class="heroarea-subhead" style="margin-top:20px;">{{ . }}</p> {{ end }}
         {{with .Site.Params.banner.contentsubarea}} <p style="margin-top:20px;font-weight:700;">{{ . }}</p> {{ end }}

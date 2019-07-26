@@ -1,7 +1,7 @@
 baseURL = ""
 languageCode = "en-us"
 DefaultContentLanguage = "en"
-title = "Netspective Media"
+title = "Digital Health Products & Health IT News | Practitioner & Expert Journalism | Netspective Media"
 theme = "meghna-hugo"
 summaryLength = 10
 
@@ -53,7 +53,7 @@ home= "Home"
 logo = "images/Netspective-Media-logo.png"
 gmapAPI = ""
 # Meta data
-description = "Practitioner &amp; Expert Journalism"
+description = "Netspective Media publishes opinionated insider-driven content for builders of complex & safety-critical regulated Health IT, Government Med Tech, Life Sciences related products. Read all the healthcare news articles and blog posts from across the Internet right from Netspective.media"
 author = "Themefisher"
 # Google Analitycs
 googleAnalitycsID = "Your ID"
@@ -64,7 +64,8 @@ custom_css = ["css/custom.css"]
     enable = true
     bgImage = "images/slider/banner-slider-1.jpg"
     icon = "tf-ion-play"
-    heading = "PRACTITIONER & EXPERT JOURNALISM"
+    heading = "Digital Health Products & Health IT News- Netspective.Media"
+    subheading = "Practitioner & Expert Journalism"
     contentSubhead = "Go beyond news & views."
     contentDescription ="Netspective Media publishes opinionated insider-driven content for builders of complex & safety-critical regulated products."
     contentsubarea="We explain the value of IT & how to de-risk innovation."

@@ -2,10 +2,18 @@ enable: true
 heading: Partners
 Partnerimagelist:
   - image: /images/Information-Management-Network-300x100.jpg
+    title: Information Management Network
   - image: /images/MedCity-News-300x100.jpg
+    title: MedCity News
   - image: /images/American-Telemedicine-Association-300x100.jpg
+    title: American Telemedicine Association
   - image: /images/Himss-300x100.jpg
+    title: Himss
   - image: /images/HealthcareScene.com_-300x100.jpg
+    title: HealthcareScene
   - image: /images/Influential-Networks-2-300x100.png
+    title: Influential Networks
   - image: /images/physia-logo-300x100.png
+    title: Physia Logo
   - image: /images/tcbi-300x100.png
+    title: Tcbi

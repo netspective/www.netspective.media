@@ -2,13 +2,25 @@ enable: true
 heading: Awards
 awardlist:
   - image: /images/healthcare_blog.png
+    title: Healthcare Blog
   - image: /images/Top-health-blogs-badge_health.png
+    title: Top Health Blogs Badge Health
   - image: /images/Best-HIT-BLOGS-OF-2013-Healthcare-IT-Leaders.png
+    title: Best HIT BLOGS OF 2013 Healthcare IT Leaders
   - image: /images/The-Federal-100-Award-Winner-1.png
+    title: The Federal 100 Award Winner
   - image: /images/Best-of-the-best-Alltop-1.png
+    title: Best of the best Alltop
   - image: /images/HITSphere-Healthcare-IT-Supersite-1.png
+    title: HITSphere Healthcare IT 
   - image: /images/hit99.png
+    title: Hit99
   - image: /images/hit100.png
+    title: Hit100
   - image: /images/awards-it-blog.png
+    title: Awards It Blog
   - image: /images/healthcare_blog.png
+    title: Healthcare Blog
   - image: /images/top-100-health-blogs-150x1501.png
+    title: Top 100 Health Blogs
+

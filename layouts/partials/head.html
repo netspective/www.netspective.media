@@ -3,13 +3,13 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="description" content="{{ if .Description }}{{ .Description }}{{else if .IsPage}}{{ .Summary | plainify}}{{ else }}{{.Site.Params.description}}{{ end }}">
-    <meta name="author" content="{{ with .Params.author }}{{ . }}{{else}}{{ with .Site.Params.author}}{{ . }}{{ end }}{{end}}">
+    <meta name="author" content="">
 
     {{ "<!-- Mobile Specific Meta -->" | safeHTML }}
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {{ hugo.Generator }}
 
-    <title>{{ if .IsHome }}{{ .Site.Title }}{{" | "}}{{ .Site.Params.Description }}{{ else if .IsPage}}{{ .Title }}{{" | "}}{{ .CurrentSection.Title }}{{else if eq .Section "author" }}{{if .Params.name}}{{.Params.name}} | {{ i18n "authorOfPostsOnBlog" }} „{{.Site.Title}}" {{else}}{{ i18n "authorsOfPostsOnBlog" }} „{{.Site.Title}}"{{end}}{{else if eq .Section "blog" }}{{ i18n "blogs" }} | {{ .Site.Title}}{{else}}{{ .Title }}{{with .Params.Description}}{{" | " .}}{{ end }}{{ end }}</title>
+    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else if .IsPage}}{{ .Title }}{{" | "}}{{ .CurrentSection.Title }}{{else if eq .Section "author" }}{{if .Params.name}}{{.Params.name}} | {{ i18n "authorOfPostsOnBlog" }} „{{.Site.Title}}" {{else}}{{ i18n "authorsOfPostsOnBlog" }} „{{.Site.Title}}"{{end}}{{else if eq .Section "blog" }}{{ i18n "blogs" }} | {{ .Site.Title}}{{else}}{{ .Title }}{{with .Params.Description}}{{" | " .}}{{ end }}{{ end }}</title>
 
 
     {{"<!-- Favicon -->" |safeHTML}}
@@ -34,6 +34,29 @@
     {{ range .Site.Params.custom_css }}
     <link rel="stylesheet" href="{{ . | absURL }}">
     {{ end }}
-
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsMediaOrganization",
+  "name": "Netspective Media",
+  "url": "https://netspective-media.netlify.com/",
+  "logo": "/images/Netspective-Media-logo.png",
+  "telephone": "(301) 887-3334",
+  "email": "editor@netspective.media",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "1802 Brightseat Rd. Suite 101",
+    "addressLocality": "Landover",
+    "addressRegion": "MD",
+    "postalCode": "20785",
+    "addressCountry": "US"
+  } ,
+  "sameAs": [
+    "https://www.facebook.com/NetspectiveMedia",
+    "https://twitter.com/NetspectivMedia",
+    "https://www.linkedin.com/company/netspective-media/"
+  ]
+}
+</script>
 {{- partial "head_custom.html" . }}
 </head>
