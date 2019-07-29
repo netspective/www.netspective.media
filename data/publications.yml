@@ -29,11 +29,11 @@ publicationItem:
     submitbtnURL: 'https://news.healthcareguys.com/#submit'
     title: Healthcare Guys News
   - btnText: Read / Upvote / Comment
-    btnURL: 'http://govtech.netspective.media/'
+    btnURL: '#'
     content: >-
       It’s like Hacker News for Digital Government. Sharing, upvote, and
       commenting on gov tech news.
     icon: /images/Federal-logo.png
     submitbtnText: Share a link / story
-    submitbtnURL: 'http://govtech.netspective.media/#submit'
+    submitbtnURL: '#'
     title: dGov News
