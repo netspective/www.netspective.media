@@ -22,27 +22,23 @@ summaryLength = 10
     URL = "solutions"
     weight = 3
 
-    [[menu.nav]]
-    name = "Downloads"
-    URL = "downloads"
-    weight = 4
 
     [[menu.nav]]
     name = "Partners"
     URL = "partners"
-    weight = 5
+    weight = 4
     
 
     [[menu.nav]]
     name = "Contact"
     URL = "contact-us"
-    weight = 6
+    weight = 5
 
 
     [[menu.nav]]
     name = "Awards"
     URL = "awards"
-    weight = 7
+    weight = 6
 
 
    

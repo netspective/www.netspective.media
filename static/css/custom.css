@@ -102,7 +102,14 @@ background: #57cbcc;
     background-color: #e7eaec;
 }
 .partner-section {
-    background-color: #fff;
+background: rgba(245,245,245,1);
+background: -moz-linear-gradient(top, rgba(245,245,245,1) 0%, rgba(255,255,255,1) 21%, rgba(255,255,255,1) 51%, rgba(255,255,255,1) 82%, rgba(245,245,245,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(245,245,245,1)), color-stop(21%, rgba(255,255,255,1)), color-stop(51%, rgba(255,255,255,1)), color-stop(82%, rgba(255,255,255,1)), color-stop(100%, rgba(245,245,245,1)));
+background: -webkit-linear-gradient(top, rgba(245,245,245,1) 0%, rgba(255,255,255,1) 21%, rgba(255,255,255,1) 51%, rgba(255,255,255,1) 82%, rgba(245,245,245,1) 100%);
+background: -o-linear-gradient(top, rgba(245,245,245,1) 0%, rgba(255,255,255,1) 21%, rgba(255,255,255,1) 51%, rgba(255,255,255,1) 82%, rgba(245,245,245,1) 100%);
+background: -ms-linear-gradient(top, rgba(245,245,245,1) 0%, rgba(255,255,255,1) 21%, rgba(255,255,255,1) 51%, rgba(255,255,255,1) 82%, rgba(245,245,245,1) 100%);
+background: linear-gradient(to bottom, rgba(245,245,245,1) 0%, rgba(255,255,255,1) 21%, rgba(255,255,255,1) 51%, rgba(255,255,255,1) 82%, rgba(245,245,245,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', endColorstr='#f5f5f5', GradientType=0 );
 }
 .awards {
     margin-bottom: 30px;
@@ -180,15 +187,7 @@ input#contactsubmit,#contact-submit:hover  {
     padding-bottom: 15px;
 }
 .contact-us {
-    /*background: #e7eaec;*/
-    background: rgba(245,245,245,1);
-background: -moz-linear-gradient(top, rgba(245,245,245,1) 0%, rgba(255,255,255,1) 100%);
-background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(245,245,245,1)), color-stop(100%, rgba(255,255,255,1)));
-background: -webkit-linear-gradient(top, rgba(245,245,245,1) 0%, rgba(255,255,255,1) 100%);
-background: -o-linear-gradient(top, rgba(245,245,245,1) 0%, rgba(255,255,255,1) 100%);
-background: -ms-linear-gradient(top, rgba(245,245,245,1) 0%, rgba(255,255,255,1) 100%);
-background: linear-gradient(to bottom, rgba(245,245,245,1) 0%, rgba(255,255,255,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', endColorstr='#ffffff', GradientType=0 );
+  background: #fff;
 }
 .form-meghna .form-control {
     border: 1px solid rgb(216, 216, 216)!important;
