@@ -29,8 +29,9 @@
 
             {{"<!-- Contact Form -->" | safeHTML}}
             <div class="col-lg-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
-
-        <form action="https://formspree.io/support@netspective.media" method="POST">
+              <script src='https://www.google.com/recaptcha/api.js'></script>
+        <form class="gform pure-form pure-form-stacked" method="POST" 
+                    action="https://script.google.com/macros/s/AKfycbz4KrxZX9arGpKsM9oLEPZ0iFIuSxcXoYAWDw6y-A8MHA-Fusqz/exec">
                      <!-- change the form action to your script url -->
                 <div style="display:none;" class="thankyou_message">      
                     <h3>Thanks for contacting us! We will get back to you soon!</h3>
@@ -49,13 +50,16 @@
                 <div class="form-group">
                     <textarea rows="6" placeholder="Message" class="form-control" name="message" id="message"></textarea>
                 </div>
+                <div class="form-group">
+                 <div class="g-recaptcha" data-sitekey="6LeEw7AUAAAAANUpVuUDnTp5uOI7YioM2rWg9ud5"></div>
+                 <span class="error" id="captcaha" style="display: none;"> Please verify the Captcha</span> 
+                </div>
                 <div id="cf-submit">
                      <input type="submit" id="contactsubmit" class="btn btnsubmit" value="Submit">
                 </div>
-                <div class="form-group">
-                 <input type="text" name="_gotcha" style="display:none" />
-                </div>                      
+                                     
             </form>
+            <script data-cfasync="false" src="/js/form-submission-handler.js"></script>
             </div>
         </div>
     </div>
