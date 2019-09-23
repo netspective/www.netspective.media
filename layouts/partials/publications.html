@@ -17,7 +17,7 @@
             <div class="col-lg-3 text-center wow fadeInUp" data-wow-duration="500ms">
                 <div class="block publish-blck">
                     
-                        {{with .icon }}<img src="{{ . }}" class="img-responsive pub-logo" alt="" title=""></img>{{ end }}
+                        <img {{with .icon }} src="{{ . }}"{{ end }} class="img-responsive pub-logo" {{ with .title }} alt="{{ . }}" title="{{ . }}" {{ end }}></img>
                     
                     {{"<!-- Express About Yourself -->" | safeHTML}}
                     <div class="content text-center">
