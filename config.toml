@@ -53,7 +53,7 @@ description = "Netspective Media publishes opinionated insider-driven content fo
 author = "Themefisher"
 # Google Analitycs
 googleAnalitycsID = "Your ID"
-custom_css = ["css/custom.css"]
+custom_css = ["/css/custom.css"]
 
     # Banner Section
     [params.banner]

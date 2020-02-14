@@ -1,6 +1,5 @@
 ---
 title: "Terms and Conditions"
-slug: "terms-and-conditions"
 ---
 # Terms and Conditions
 
