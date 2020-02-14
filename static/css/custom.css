@@ -303,3 +303,10 @@ font-weight: 600;
 
 
 /* Media query END */
+
+.privacy.section {
+    background-color: white;
+}
+.privacy.section a {
+    color: #007bff;
+}
