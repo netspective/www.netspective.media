@@ -46,7 +46,7 @@ summaryLength = 10
 # Site params
 [params]
 home= "Home"
-logo = "images/Netspective-Media-logo.png"
+logo = "/images/Netspective-Media-logo.png"
 gmapAPI = ""
 # Meta data
 description = "Netspective Media publishes opinionated insider-driven content for builders of complex & safety-critical regulated Health IT, Government Med Tech, Life Sciences related products. Read all the healthcare news articles and blog posts from across the Internet right from Netspective.media"
