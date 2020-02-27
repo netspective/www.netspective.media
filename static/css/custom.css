@@ -5,6 +5,7 @@ body {
 .navigation .navigation-menu li a {
     font-size: 16px;
     color: #000000;
+    cursor: pointer;
 }
 .navigation .navigation-menu li a:hover, .navigation .navigation-menu li a:focus {
     background: transparent;
@@ -256,6 +257,9 @@ font-weight: 600;
 .error {
     background-color: transparent!important;
     padding: 0px!important;
+}
+.copyright  a {
+    cursor: pointer;
 }
 /* Media query Starts here */
 

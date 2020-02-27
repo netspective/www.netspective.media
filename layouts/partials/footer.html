@@ -18,7 +18,7 @@
 					<p><a href="{{ .Site.Params.footer.copyrightURL | absURL }}"> {{ with .Site.Params.footer.copyright }} {{ . }} {{ end }} </a>. Copyright &copy; <script>
 							document.write(new Date().getFullYear())
 						</script>. All Rights Reserved.</p>
-						<p><a href="/privacy-policy/">Privacy Policy</a> | <a href="/terms-and-conditions/">Terms and conditions</a></p>
+						<p><a onclick="goToByScroll('publications');">Publications</a> |  <a onclick="goToByScroll('solutions');">Solutions</a> | <a onclick="goToByScroll('partners');">Partners</a> | <a onclick="goToByScroll('contact-us');">Contact</a> | <a href="/privacy-policy/">Privacy Policy</a> | <a href="/terms-and-conditions/">Terms and conditions</a></p>
 				</div>
 			</div>
 		</div>
@@ -39,7 +39,7 @@
 		{{"<!-- Magnific popup -->" | safeHTML}}
 		<script type="text/javascript" src="{{ "/plugins/magnific-popup/dist/jquery.magnific-popup.min.js" | absURL}}"></script>
 		{{"<!-- Google Map API -->" | safeHTML}}
-		<script type="text/javascript"  src="{{ .Site.Params.gmapAPI | absURL }}"></script>
+		<!--<script type="text/javascript"  src="{{ .Site.Params.gmapAPI | absURL }}"></script> -->
 		{{"<!-- Number Counter Script -->" | safeHTML}}
 		<script type="text/javascript" src="{{ "/plugins/count-to/jquery.countTo.js" | absURL}}"></script>
 		{{"<!-- wow.min Script -->" | safeHTML}}

@@ -19,9 +19,9 @@
                 {{ if .IsHome }}
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ml-auto navigation-menu">
-                                <li class="nav-item"><a class="nav-link" data-scroll href="#home">{{ with $.Site.Params.home }}{{ . }}{{ end }}</a></li>
+                                <li class="nav-item"><a id="home-link" class="nav-link active" onclick="goToByScroll('home');">{{ with $.Site.Params.home }}{{ . }}{{ end }}</a></li>
                                 {{ range $.Site.Menus.nav }}
-                                <li class="nav-item"><a class="nav-link" data-scroll href="#{{ .URL }}">{{ .Name }}</a></li>
+                                <li class="nav-item"><a id="{{ .URL }}-link" class="nav-link" onclick="goToByScroll('{{ .URL }}');" >{{ .Name }}</a></li>
                                 {{ end }}
                         </ul>
                 </div>
