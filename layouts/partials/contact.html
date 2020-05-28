@@ -30,26 +30,27 @@
             {{"<!-- Contact Form -->" | safeHTML}}
             <div class="col-lg-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
 
-        <form action="#" method="POST" id="quickcontact">
+        <form action="https://formspree.io/support@netspective.media" method="POST" id="quickcontact">
                      <!-- change the form action to your script url -->
-                <div style="display:none;" class="thankyou_message">      
+                <!--<div style="display:none;" class="thankyou_message">      
                     <h3>Thanks for contacting us! We will get back to you soon!</h3>
-                </div> 
+                </div>--> 
                 <div class="form-group">
                     <input type="text" placeholder="Name" class="form-control" name="Name" id="firstname">
-                    <span class="error" id="name" style="display: none;">The Field Required.</span>
+                    <span class="error" id="name" style="display: none;">Please enter name</span>
                 </div>
                 <div class="form-group">
                     <input type="email" placeholder="Email" class="form-control" name="Email" id="emailaddress">
-                    <span class="error" id="email" style="display: none;">The Field Required.</span>
+                    <span class="error" id="email" style="display: none;">Please enter email</span>
                 </div>
                 <div class="form-group">
                     <input type="text" placeholder="Subject" class="form-control" name="Subject" id="subject">
+                    <span class="error" id="subject_error" style="display: none;">Please enter the subject</span>
                 </div>
                 <div class="form-group">
                     <textarea rows="6" placeholder="Message" class="form-control" name="Message" id="message"></textarea>
                 </div>
-                <input type="hidden" name="_subject" value="[Netspective.media] - Contact Form Submission" />
+                <input type="hidden" name="_subject" value="[Netspective.media] - Contact Form Submission"/>
                 <div id="cf-submit">
                      <input type="button" id="contactsubmit" class="btn btnsubmit" value="Submit">
                 </div>
